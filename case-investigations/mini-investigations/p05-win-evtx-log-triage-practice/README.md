@@ -93,6 +93,6 @@ Across the merged log set, multiple suspicious indicators were identified:
 
 This mini project demonstrates how to quickly pivot from event IDs to actionable investigation artifacts and document them as portfolio-ready evidence.
 
-## Notes / Next pivots (optional)
+## Notes 
 - Extract full 4104 script block text into a file and deobfuscate safely (offline) to recover any network indicators.
 - Correlate ProcessId (6620) with other logs (4688, Sysmon EID 1 if available) to identify the parent process chain.

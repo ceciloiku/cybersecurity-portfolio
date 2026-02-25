@@ -43,7 +43,8 @@ Command-line telemetry shows the account was created via **WMIC remote process e
 
 ### 4) Validate logon activity (not observed)
 I searched for common logon event IDs (e.g., 4624/4625) associated with the new account and did not observe clear evidence of an interactive logon for `Alberto` within the available logs.  
-(Optional evidence screenshot can be included if desired.)
+(images/08-no-logon-events.png)
+
 
 ---
 
