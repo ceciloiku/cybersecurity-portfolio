@@ -16,7 +16,7 @@ Thunderbird, `lnkparse`, `jq`, Wireshark, `tshark`
 ## 1) Initial Access: Email Analysis
 The email used a payment/collection theme and delivered a compressed attachment. Message headers were reviewed to identify infrastructure indicators (e.g., authentication and relay artefacts).
 
-![Phishing email with attachment (sensitive fields redacted)](Images/01-email.png)
+![Phishing email with attachment (sensitive fields redacted)](images/01-email.png)
 
 ![Email header artefacts (cropped/redacted)](images/02-headers.png)
 
