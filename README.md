@@ -31,5 +31,5 @@ I’m transitioning from Data Science & Analytics into Blue Team Security roles.
 All screenshots and artifacts are **sanitized** (no training-platform answers/flags, no sensitive identifiers).
 
 ## Contact
-- LinkedIn: <your link>
-- Email: <optional>
+- LinkedIn: https://www.linkedin.com/in/cecil-oiku-346527a0/
+- Email: ceciloiku@gmail.com
