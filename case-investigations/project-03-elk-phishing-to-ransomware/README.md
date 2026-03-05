@@ -63,7 +63,7 @@ Process telemetry shows `fodhelper.exe` activity in proximity to suspicious exec
 ---
 
 ### 6) Credential access + post-exploitation tooling indicators
-Hunting revealed indicators consistent with credential dumping and domain enumeration activity (tooling references observed in command-lines). Any sensitive strings (hashes/passwords/encoded blobs) are redacted in published screenshots.
+Hunting revealed indicators consistent with credential dumping and domain enumeration activity (tooling references observed in command-lines). Any sensitive strings (passwords/encoded blobs) are redacted in published screenshots.
 
 ![tooling indicator - credential dumping](images/06_tooling_credential_dumping_redacted.png)
 
@@ -79,7 +79,7 @@ Telemetry from the domain controller includes indicators consistent with a DCSyn
 ---
 
 ### 8) Ransomware download attempt
-Later activity includes an attempted download of a ransomware binary (`ransomboogey.exe`). The URL is defanged/redacted in screenshots.
+Later activity includes an attempted download of a ransomware binary (`ransomboogey.exe`). The URL is redacted in screenshots.
 
 ![ransomware download attempt](images/09_ransomware_download_redacted.png)
 

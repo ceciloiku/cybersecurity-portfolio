@@ -36,9 +36,8 @@ In Suricata, an alert signature indicated attempts associated with **CVE-2014-62
 ![Suricata CVE attempt signature](images/03-suricata-cve-2014-6271.png)
 
 HTTP user-agent analysis also surfaced scanner fingerprints consistent with automated web scanning (e.g., Acunetix test strings).  
-(Recommended: redact raw payload strings before publishing.)
 
-![User-agent evidence (Acunetix indicators)](images/04-user-agent-acunetix-redact.png)
+![User-agent evidence (Acunetix indicators)](images/04-user-agent-acunetix.png)
 
 ---
 
@@ -52,7 +51,6 @@ URI review identified the Joomla admin login path:
 ![Joomla admin login URI](images/06-joomla-admin-uri.png)
 
 A focused search on POSTs to the admin endpoint showed repeated login attempts with `username=admin` and many password guesses in rapid succession.  
-(Recommended: blur/redact the entire `form_data` column.)
 
 ![Admin login POST attempts (redacted)](images/08-admin-login-posts-redacted.png)
 
