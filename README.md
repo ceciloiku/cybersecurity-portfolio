@@ -49,6 +49,7 @@ All screenshots and artifacts are **sanitized** (no training-platform answers/fl
 - Project 02 — Malicious Resume (Macro) → Memory Forensics
 - Project 03 — HTA Execution → Lateral Movement → DCSync Attempt (ELK)
 - Project 04 — Joomla Web Server Compromise & Defacement (Splunk)
+- Project 05 — Phishteam → c2-intrusion
 
 ### Mini investigations
 - P01 — Pastebin C2 Activity (ELK)
@@ -65,6 +66,6 @@ All screenshots and artifacts are **sanitized** (no training-platform answers/fl
 - Lab 05 — Splunk Dashboard
 - Lab 06 — Sentinel Analytics Rules (KQL)
 - Lab 07 — Python Log Parsing
-- Lab 08 — M365 (in progress)
+- Lab 08 — M365
 
 </details>
