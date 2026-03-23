@@ -79,7 +79,7 @@ The script’s outbound request targeted:
 
 ## Key Takeaways
 - A new local account (`Alberto`) was created (EventID 4720) and correlated with SAM registry artifacts.
-- Creation was performed via remote execution (WMIC → net user add).
+- Creation was performed via remote execution (WMIC — net user add).
 - Encoded PowerShell execution (EventID 4103) was decoded to reveal AMSI bypass indicators and a C2-style web request to an internal host.
 
 ## Detection Ideas

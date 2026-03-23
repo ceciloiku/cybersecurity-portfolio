@@ -9,8 +9,8 @@ I’m transitioning from Data Science & Analytics into Blue Team Security roles.
 
 ## Featured work (start here)
 ## Case investigations
-- [Project 01 — Phishing > PowerShell Execution > Tool Retrieval > DNS Exfiltration](case-investigations/project-01-phishing-investigation/)
-- [Project 03 — Phishing > HTA Execution > Lateral Movement > DCSync Attempt (ELK)](case-investigations/project-03-elk-phishing-to-ransomware/)
+- [Project 01 — Phishing — PowerShell Execution — Tool Retrieval — DNS Exfiltration](case-investigations/project-01-phishing-investigation/)
+- [Project 03 — Phishing — HTA Execution — Lateral Movement — DCSync Attempt (ELK)](case-investigations/project-03-elk-phishing-to-ransomware/)
 - [Project 04 — Joomla Web Server Compromise & Defacement (Splunk)](case-investigations/project-04-joomla-defacement-splunk/)
 
 ## Microsoft 365 Secuirty 
@@ -49,11 +49,11 @@ All screenshots and artifacts are **sanitized** (no training-platform answers/fl
 <summary><strong>Full work index</strong></summary>
 
 ### Case investigations
-- Project 01 — Phishing > PowerShell > DNS Exfiltration
-- Project 02 — Malicious Resume (Macro) > Memory Forensics
-- Project 03 — HTA Execution > Lateral Movement > DCSync Attempt (ELK)
+- Project 01 — Phishing — PowerShell — DNS Exfiltration
+- Project 02 — Malicious Resume (Macro) — Memory Forensics
+- Project 03 — HTA Execution — Lateral Movement — DCSync Attempt (ELK)
 - Project 04 — Joomla Web Server Compromise & Defacement (Splunk)
-- Project 05 — Phishteam > c2-intrusion
+- Project 05 — Phishteam — c2-intrusion
 
 ### Microsoft 365 Security 
 - 01-Tenant Setup & Audit Enablement 
@@ -71,7 +71,7 @@ All screenshots and artifacts are **sanitized** (no training-platform answers/fl
 ### Home labs
 - Lab 01 — Wireshark Packet Capture
 - Lab 02 — Sysmon vs Windows Event Logs
-- Lab 03 — Splunk Universal Forwarder (Windows > Splunk Cloud)
+- Lab 03 — Splunk Universal Forwarder (Windows — Splunk Cloud)
 - Lab 04 — Splunk Alert (Sysmon Network Connection)
 - Lab 05 — Splunk Dashboard
 - Lab 06 — Sentinel Analytics Rules (KQL)

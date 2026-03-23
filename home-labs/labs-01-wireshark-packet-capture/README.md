@@ -1,7 +1,7 @@
 # Wireshark Packet Capture — Mini Lab (DNS + ICMP + HTTP/HTTPS)
 
 ## Objective
-Capture and analyze **DNS**, **ICMP**, and **HTTP/HTTPS** traffic in Wireshark, then summarize key takeaways for repeatable triage (DNS → resolved IP → conversations).
+Capture and analyze **DNS**, **ICMP**, and **HTTP/HTTPS** traffic in Wireshark, then summarize key takeaways for repeatable triage (DNS — resolved IP — conversations).
 
 ## Environment
 - Interface: `eth0`
@@ -43,14 +43,14 @@ HTTP traffic showed a request to `http://example.com/` followed by a successful 
 ![HTTP request and 200 OK response](images/04-http-example-com-200ok.png)
 
 ### 3) Conversation-level summary
-Using **Statistics → Conversations**, the capture shows outbound connections from the host to remote endpoints over:
+Using **Statistics — Conversations**, the capture shows outbound connections from the host to remote endpoints over:
 - **HTTP (80/tcp)**
 - **HTTPS (443/tcp)**
 
 ![Wireshark conversations summary](images/05-conversations-summary.png)
 
 ## Key Takeaways
-- DNS is a strong pivot point: domain → resolved IP(s) → follow conversations.
+- DNS is a strong pivot point: domain — resolved IP(s) — follow conversations.
 - A simple workflow for triage:
   1) Filter `dns` to identify lookups  
   2) Extract resolved IPs  
@@ -59,7 +59,7 @@ Using **Statistics → Conversations**, the capture shows outbound connections f
 
 ## Next
 - Add an **ICMP-specific screenshot** (`icmp` filter showing Echo request/reply) to round out the evidence set.
-- Reuse this workflow for suspicious traffic triage: **rare DNS → unexpected outbound HTTP/TLS → follow conversation → inspect stream**.
+- Reuse this workflow for suspicious traffic triage: **rare DNS — unexpected outbound HTTP/TLS — follow conversation — inspect stream**.
 
 ## Observed Indicators
 See: [iocs/iocs.md](iocs/iocs.md)

@@ -1,4 +1,4 @@
-# Project 03 — Phishing → HTA Execution → Lateral Movement → DCSync Attempt (ELK)
+# Project 03 — Phishing — HTA Execution — Lateral Movement — DCSync Attempt (ELK)
 
 ## Summary
 This investigation analyzes a multi-stage intrusion observed in endpoint telemetry indexed in ELK (Winlogbeat) between **Aug 29–30, 2023**. The activity begins with execution of an **HTML Application (.hta)** via **mshta.exe**, followed by file staging, **DLL side-loading via rundll32**, persistence creation, suspicious administration tooling, credential access behavior, lateral movement, and an attempted **DCSync** from the domain controller. The campaign concludes with an attempted ransomware download.
@@ -34,7 +34,7 @@ This investigation analyzes a multi-stage intrusion observed in endpoint telemet
 
 ---
 
-### 2) Staging + execution chain (mshta → xcopy → rundll32)
+### 2) Staging + execution chain (mshta — xcopy — rundll32)
 Immediately following execution, the payload staged a secondary file (`review.dat`) and executed it via `rundll32.exe` (export: `DllRegisterServer`), consistent with DLL loader abuse.
 
 ![surrounding docs showing chain](images/02_surrounding_docs_chain.png)

@@ -22,7 +22,7 @@ The email used a payment/collection theme and delivered a compressed attachment.
 
 ---
 
-## 2) Execution Chain: Shortcut (LNK) → PowerShell
+## 2) Execution Chain: Shortcut (LNK) — PowerShell
 Attachment triage identified a Windows shortcut (`.lnk`) designed to launch PowerShell with a hidden window and an encoded command line, consistent with obfuscation and “living off the land” execution.
 
 ![LNK parsed showing hidden PowerShell with encoded command (payload redacted)](images/03-lnk-powershell.png)

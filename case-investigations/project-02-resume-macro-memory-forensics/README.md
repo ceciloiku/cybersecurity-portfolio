@@ -31,7 +31,7 @@ Macro inspection showed an AutoOpen entry point that performs:
 
 ---
 
-## 3) Memory Forensics: Process Tree (WINWORD → wscript → malware)
+## 3) Memory Forensics: Process Tree (WINWORD — wscript — malware)
 The memory image confirmed the expected execution flow:
 - `WINWORD.EXE` spawned `wscript.exe`
 - `wscript.exe` then led to the execution of a suspicious binary (`updater.exe`)

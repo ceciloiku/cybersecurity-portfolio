@@ -16,8 +16,8 @@ I generated several endpoint actions, then confirmed they appeared in the corres
 
 Actions tested:
 - Process creation (Notepad)
-- Child process + command line (cmd → `ipconfig /all`)
-- Network connection (PowerShell → 1.1.1.1:443)
+- Child process + command line (cmd — `ipconfig /all`)
+- Network connection (PowerShell — 1.1.1.1:443)
 - File creation (`test.txt`)
 - Registry create/set/modify (`HKCU:\Software\MVP2Key\MVP2_RegTest`)
 - PowerShell ScriptBlock logging (4104)
@@ -37,7 +37,7 @@ Actions tested:
 
 ---
 
-### 2) Child Process + Command Line — cmd → `ipconfig /all`
+### 2) Child Process + Command Line — cmd — `ipconfig /all`
 **Sysmon EID 1** captured `ipconfig.exe` including the command line and parent (`cmd.exe`).
 
 ![Sysmon EID 1 - ipconfig /all with parent cmd.exe](images/03-sysmon-eid1-ipconfig.png)
@@ -48,7 +48,7 @@ Actions tested:
 
 ---
 
-### 3) Network Connection — PowerShell → 1.1.1.1:443
+### 3) Network Connection — PowerShell — 1.1.1.1:443
 A connectivity test was generated, then validated in Sysmon.
 
 **Sysmon EID 3** captured:

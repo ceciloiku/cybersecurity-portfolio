@@ -34,7 +34,7 @@ This project demonstrates hands-on experience with Microsoft 365 security operat
 
   - Brute Force / Password Spray (4625)
   - Suspicious PowerShell Execution (4688)
-  - Failed Login → Success Correlation
+  - Failed Login — Success Correlation
   - New User Account Creation
 
 📁 [View Detections](../04-sentinel-detections/01-endpoint-detections/README.md)
