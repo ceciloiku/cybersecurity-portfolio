@@ -1,0 +1,5 @@
+SecurityEvent
+| where EventID == 4625
+| summarize FailedLogons=count(), DistinctUsers=dcount(TargetUserName) by IpAddress, bin(TimeGenerated, 15m)
+| where FailedLogons >= 5
+| sort by FailedLogons desc
