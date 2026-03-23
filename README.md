@@ -1,4 +1,4 @@
-# Cybersecurity Portfolio — Blue Team / SIEM
+# Cybersecurity Portfolio
 
 I’m transitioning from Data Science & Analytics into Blue Team Security roles. This repo showcases hands-on experience in **security investigations, Microsoft 365 secuirty, and detection engineering,** with a focus on logs, SIEM, incident response and reporting.
 
