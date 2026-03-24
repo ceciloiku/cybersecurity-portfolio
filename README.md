@@ -1,6 +1,8 @@
 # Cybersecurity Portfolio
 
-I’m transitioning from Data Science & Analytics into Blue Team Security roles. This repo showcases hands-on experience in **security investigations, Microsoft 365 secuirty, and detection engineering,** with a focus on logs, SIEM, incident response and reporting.
+I’m transitioning from Data Science & Analytics into Blue Team Security roles, with a focus on **Security investigations, Microsoft 365 identity monitoring, and SIEM detection engineering.**
+
+This portfolio demonstrates hands-on experience analyzing logs, investigating incidents, and building detections using tools such as Microsoft Sentinel, Splunk, and Microsoft 365 (Purview & Entra ID).
 
 ## Target roles
 - Blue Team Security Analyst
@@ -8,12 +10,14 @@ I’m transitioning from Data Science & Analytics into Blue Team Security roles.
 - Microsoft 365 Security Analyst
 
 ## Featured work (start here)
+These projects demonstrate real-world SOC workflows: log analysis, incident investigation, and detection development.
+
 ## Case investigations
 - [Project 01 - Phishing — PowerShell Execution — Tool Retrieval — DNS Exfiltration](case-investigations/project-01-phishing-investigation/)
 - [Project 03 - Phishing — HTA Execution — Lateral Movement — DCSync Attempt (ELK)](case-investigations/project-03-elk-phishing-to-ransomware/)
 - [Project 04 - Joomla Web Server Compromise & Defacement (Splunk)](case-investigations/project-04-joomla-defacement-splunk/)
 
-## Microsoft 365 Secuirty 
+## Microsoft 365 Security 
 - [02 - Audit Log Analysis](m365-security-pack/02-audit-log-analysis/)
 - [03 - Identity Sign-In Investigation (Brute Force Pattern)](m365-security-pack/03-identity-investigation/)
 - [04 - Sentinel Detection Engineering (KQL)](sentinel-detection-engineering/)
