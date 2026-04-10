@@ -61,6 +61,3 @@ The Universal Forwarder successfully forwarded **Windows Security** and **Sysmon
 - **Network connection** telemetry (Sysmon EventCode 3)
 
 This validates end-to-end collection: **endpoint — UF — Splunk Cloud** for investigation-ready Windows telemetry.
-
-## Observed Indicators / Artifacts
-See: [iocs/iocs.md](iocs/iocs.md)

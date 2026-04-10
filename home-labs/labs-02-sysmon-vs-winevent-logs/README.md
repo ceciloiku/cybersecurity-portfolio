@@ -96,6 +96,3 @@ A connectivity test was generated, then validated in Sysmon.
 - Alert on PowerShell making outbound connections (**Sysmon EID 3**) to unexpected external IPs/ports.
 - Monitor “new file created by PowerShell” patterns (**Sysmon EID 11**) in sensitive directories.
 - Watch for suspicious persistence-like registry writes (**Sysmon EID 13** + **Security 4657**) under common run keys / unusual HKCU paths.
-
-## Observed Indicators / Artifacts
-See: [iocs/iocs.md](iocs/iocs.md)
