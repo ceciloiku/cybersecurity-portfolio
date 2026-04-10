@@ -56,10 +56,3 @@ Using **Statistics — Conversations**, the capture shows outbound connections f
   2) Extract resolved IPs  
   3) Filter `http` / `tls` and validate destinations  
   4) Use **Conversations** to see who talked to whom, on what ports, and how much data moved
-
-## Next
-- Add an **ICMP-specific screenshot** (`icmp` filter showing Echo request/reply) to round out the evidence set.
-- Reuse this workflow for suspicious traffic triage: **rare DNS — unexpected outbound HTTP/TLS — follow conversation — inspect stream**.
-
-## Observed Indicators
-See: [iocs/iocs.md](iocs/iocs.md)
