@@ -12,7 +12,7 @@ total = 0
 with open(in_path, newline="", encoding="utf-8-sig") as f:
     reader = csv.DictReader(f)
 
-    # Write timeline as we read (keeps it simple and fast)
+    # Write timeline as we read 
     with open(timeline_out, "w", newline="", encoding="utf-8") as tf:
         tw = csv.writer(tf)
         tw.writerow(["_time", "host", "DestinationIp", "DestinationPort"])
@@ -24,7 +24,7 @@ with open(in_path, newline="", encoding="utf-8-sig") as f:
             ip = (row.get("DestinationIp") or "").strip()
             port = (row.get("DestinationPort") or "").strip()
 
-            # write timeline row only if key fields exist
+            # Write timeline row if these fields exist
             if t and host and ip and port:
                 tw.writerow([t, host, ip, port])
                 timeline_rows += 1
